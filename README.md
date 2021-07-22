@@ -36,8 +36,8 @@ The `monero-rpc-wallet` is not included by default in debian's repositories, but
 
 ```
 echo "deb https://deb.whonix.org buster main contrib non-free" > /etc/apt/sources.list.d/whonix.list
-sudo apt update -y
-sudo apt-get install monero-gui
+apt update -y
+apt-get install monero-gui
 ```
 
 This will install the `monero-wallet-rpc` command among other tools.

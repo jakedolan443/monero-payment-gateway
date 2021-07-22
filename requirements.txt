@@ -1,0 +1,3 @@
+monero
+qrcode
+flask

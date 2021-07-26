@@ -2,7 +2,7 @@
 
 A simple proof-of-concept payment gateway for the cryptocurrency Monero, using a `monero-python` and `flask` backend.
 
-This web server uses a userhash, stored as a cookie, to distinguish payments - this means payments are **somewhat** anonymous, adhearing to monero's main principles. This is different to most services where, instead of having anonymity, you sign up with an email and complete KYC etc.
+This web server uses a userhash, stored as a cookie, to distinguish payments - this means payments are **somewhat** anonymous, adhering to monero's main principles. This is different to most services where, instead of having anonymity, you sign up with an email and complete KYC etc.
 
 The user is presented with a payment page with a unique wallet, generated for their unique userhash. This wallet belongs to an account of a single monero-wallet (this makes it easy for admins to handle, instead of several individual accounts, meaning all can be transferred quickly).
 
